@@ -45,7 +45,7 @@ h2 {
     height: 600px;
     width: 100%;
     margin-bottom: 15px;
-    background-image: url("../images/background.jpg"); 
+    background-image: url(./images/background.jpg); 
     background-size: cover;
     background-position: center;
 }
