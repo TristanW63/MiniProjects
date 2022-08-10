@@ -26,13 +26,14 @@ nav {
 }
 
 .pic {
-    width: 25%%;
+    width: 25%;
 }
 
 .sticky {
     position: fixed;
     top:0;
     width: 100%;
+    z-index: 1;
 }
 /* "portfolio"*/
 .logo {
