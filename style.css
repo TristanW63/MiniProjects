@@ -6,6 +6,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    background-color: #0f065e;
+}
+
 /* background image*/
 .hero {
     height: 100vh;
@@ -74,6 +78,70 @@ nav ul li a:hover {
     transform: translateY(-50%);
 }
 
+.gitpic {
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem solid #fff;
+    grid-column: 3/6;
+    grid-row: 1/4;
+    background-image: url(./GitHub-headpic.webp);
+}
+
+#my-work {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap: 1.5rem;
+    padding: 3rem; 
+}
+
+.myworkpic {
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem solid #fff;
+    grid-column: 1/4;
+    grid-row: 4/6;
+    background-image: url(./Screenshot\ 2022-08-08\ 140519.png);
+}
+
+.resumepic {
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem solid #fff;
+    grid-column: 4/6;
+    grid-row: 4/6;
+    background-image: url(./resume.jpg);
+}
+
+.main {
+    background-color: grey;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border: 0.3rem solid #fff;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+#my-work h3 {
+    color: #0f065e;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 2;
+    text-align: center;
+    border-top: 0.3rem solid #fff;
+    border-right: 0.3rem solid #fff;
+    border-bottom: 0.3rem solid #fff;
+}
+
+.gitpic h3 {
+    width: 50%;
+    margin-top: 25%;
+}
+#my-work a {
+    filter: brightness(100%);
+    transition: all 1s ease;
+}
+
 
 h1 {
     color: white;
@@ -91,89 +159,4 @@ h4 {
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
-}
-
-.style {
-    width: 100%;
-    padding: 100px 0px;
-    background-color: #191919;
-}
-
-.style img {
-    height: auto;
-    width: 430px;
-}
-
-.text {
-    width: 550px;
-}
-
-.main {
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-h2 {
-    display: flex;
-    color: white;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-
-p{
-    color: #fcfc;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-}
-
-input {
-    background-color: red;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-
-input:hover {
-    background-color: transparent;
-    border: 2px solid red;
-    cursor: pointer;
-}
-
-.content img {
-    height: auto;
-    width: 200px;
-    position: relative;
-    right: 0%;
-}
-
-@media screen and(min-width: 992px) {
-    main {
-        width: 50%;
-    }
-    
-    
-}
-
-@media screen and(min-width: 728px) {
-    body {
-        width: 100%;
-    }
-    
-}
-
-@media screen and(min-width: 540px) {
-    body {
-        width: 100%;
-    }
-    
 }
