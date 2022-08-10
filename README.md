@@ -15,7 +15,7 @@
 List the ready features here:
 - This has multiple links to other websites and it will open those links in a different browser for easier use.
 - Sticky header bar, that way you dont have to scroll to the top to use the bar
-- Awesome feature 3
+- click image to take you too link
 
 ## Project Status
 Project is: _in progress_ 
@@ -24,8 +24,7 @@ Project is: _in progress_
 ## Room for Improvement
 
 Room for improvement:
-- Better colors and layout of webpage
-- Fix gap between the my work section and resume section
+- needs to be better responsive
 
 ## Acknowledgements
 Give credit here.
