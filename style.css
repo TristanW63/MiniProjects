@@ -28,11 +28,11 @@ nav {
     padding-right: 8%;
 
 }
-
+/*Profile picture*/
 .pic {
     width: 25%;
 }
-
+/*used for sticky header*/
 .sticky {
     position: fixed;
     top:0;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     color: red;
     transition: .4s;
 }
-
+/*text to the left side of page*/
 .content {
     width: 75%;
     position: absolute;
@@ -77,14 +77,30 @@ nav ul li a:hover {
     left: 8%;
     transform: translateY(-50%);
 }
-
+/*layout within main layout*/
 .gitpic {
     width: 100%;
     height: 100%;
     outline: 0.3rem ridge #05dbf7;
     grid-column: 3/6;
     grid-row: 1/4;
-    background-image: url(./GitHub-headpic.webp);
+    background-image: url(./images/GitHub-headpic.webp);
+}
+
+.gitpic h3 {
+    width: 20%;
+}
+
+.myworkpic h3 {
+    width: 24%;
+}
+
+.resumepic h3 {
+    width: 34%;
+}
+
+.aboutme h3 {
+    width: 40%;
 }
 
 #my-work {
@@ -101,7 +117,8 @@ nav ul li a:hover {
     outline: 0.3rem ridge #05dbf7;
     grid-column: 1/4;
     grid-row: 4/6;
-    background-image: url(./Screenshot\ 2022-08-08\ 140519.png);
+    background-image: url(./images/Screenshot\ 2022-08-08\ 140519.png);
+    border-image-width: 100%;
 }
 
 .aboutme {
@@ -112,15 +129,20 @@ nav ul li a:hover {
     grid-row: 1/4;
 }
 
+.aboutme p {
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+
 .resumepic {
     width: 100%;
     height: 100%;
     outline: 0.3rem ridge #05dbf7;
     grid-column: 4/6;
     grid-row: 4/6;
-    background-image: url(./resume.jpg);
+    background-image: url(./images/resume.jpg);
 }
-
+/*main section layout*/
 .main {
     background-color: #060f18;
     border-radius: 0.5rem;
@@ -129,32 +151,18 @@ nav ul li a:hover {
     padding-bottom: 1rem;
     border: 0.2rem ridge #39FF14;
     margin: 3rem 3rem 3rem 3rem;
+    color: white;
 }
 
 #my-work h3 {
-    color: #0f065e;
-    background-color: rgba(255, 255, 255, 0.8);
-    line-height: 2;
-    text-align: center;
-    border-top: 0.3rem solid #fff;
-    border-right: 0.3rem solid #fff;
-    border-bottom: 0.3rem solid #fff;
+    color: white;
+    background-color: #060f18;
+    line-height: 1.5;
+    text-align: left;
+    border: 0.3rem ridge #fcfc;
+    padding-left: 0.45rem;
 }
 
-h5 {
-    color: #0f065e;
-    background-color: rgba(255, 255, 255, 0.8);
-    line-height: 2;
-    text-align: center;
-    border-top: 0.3rem solid #fff;
-    border-right: 0.3rem solid #fff;
-    border-bottom: 0.3rem solid #fff; 
-    font-size: 30px;
-}
-
-p {
-    display: inline-flex;
-}
 
 #my-work a {
     filter: brightness(100%);
@@ -178,4 +186,18 @@ h4 {
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
+}
+/*styling for contact section*/
+.contact {
+    background-color: #060f18;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0.2rem ridge #39FF14;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+.contactlink h3 {
+    text-align: center;
 }
