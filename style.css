@@ -84,16 +84,34 @@ nav ul li a:hover {
     outline: 0.3rem ridge #05dbf7;
     grid-column: 3/6;
     grid-row: 1/4;
-    background-image: url(./images/GitHub-headpic.webp);
+    background-image: url(./images/Screenshot\ 2022-08-08\ 140519.png);
 }
 
+.main .gitpic:hover {
+    transform: scale(101%);
+    filter: brightness(150%);
+    box-shadow: 0 0 0 7px #05dbf7;
+}
+
+.main .myworkpic:hover {
+    transform: scale(101%);
+    filter: brightness(150%);
+    box-shadow: 0 0 0 7px #05dbf7;
+}
+
+.main .resumepic:hover {
+    transform: scale(101%);
+    filter: brightness(150%);
+    box-shadow: 0 0 0 7px #05dbf7;
+} 
+
 .gitpic h3 {
-    width: 14%;
+    width:17%;
     
 }
 
 .myworkpic h3 {
-    width: 17%;
+    width: 14%;
 }
 
 .resumepic h3 {
@@ -119,8 +137,7 @@ nav ul li a:hover {
     outline: 0.3rem ridge #05dbf7;
     grid-column: 1/4;
     grid-row: 4/6;
-    background-image: url(./images/Screenshot\ 2022-08-08\ 140519.png);
-    border-image-width: 100%;
+    background-image: url(./images/GitHub-headpic.webp)
 }
 
 .aboutme {
@@ -156,6 +173,7 @@ nav ul li a:hover {
     margin: 3rem 3rem 3rem 3rem;
     color: white;
     flex-wrap: wrap;
+    transition: transform .2s;
 }
 
 #my-work h3 {
@@ -167,13 +185,6 @@ nav ul li a:hover {
     padding-left: 0.45rem;
     display: flex;
 }
-
-
-#my-work a {
-    filter: brightness(100%);
-    transition: all 1s ease;
-}
-
 
 h1 {
     color: white;
@@ -205,9 +216,18 @@ h4 {
 
 .contactlink h3 {
     text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
+.contactlink h3:hover {
+    color: red;
+    transition: .4s;
+}
 @media screen and (max-width: 750px) {
+
     nav,
     ul,
     li {
