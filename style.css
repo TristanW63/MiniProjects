@@ -111,20 +111,20 @@ nav ul li a:hover {
 } 
 
 .gitpic h3 {
-    width:17%;
+    font-size: 1.55rem;
     
 }
 
 .myworkpic h3 {
-    width: 14%;
+    font-size: 1.55rem;
 }
 
 .resumepic h3 {
-    width: 24%;
+    font-size: 1.55rem;
 }
 
 .aboutme h3 {
-    width: 28%;
+    font-size: 1.55rem;
 }
 
 #my-work {
@@ -240,4 +240,16 @@ h4 {
     transition: .4s;
 }
 
+@media screen and (max-width: 920px) {
+    h1 {
+      font-size: 2.344rem;  
+    }
+}
 
+@media screen and (max-width: 728px) {
+   .gitpic h3,
+   .myworkpic h3,
+   .resumepic h3 {
+    font-size: 1.1625rem;
+    }
+}
