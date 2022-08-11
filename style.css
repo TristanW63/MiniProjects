@@ -21,6 +21,7 @@ body {
 }
 /* header/nav bar*/
 nav {
+    background-color: #060f18;
     display: flex;
     align-items: center;
     justify-content: space-between;
