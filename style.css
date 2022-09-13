@@ -21,7 +21,7 @@ body {
 }
 /* header/nav bar*/
 nav {
-    background-color: #060f18;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,63 +83,66 @@ nav ul li a:hover {
 }
 
 /*layout within main layout*/
-.gitpic {
+.password {
     width: 100%;
     height: 100%;
     outline: 0.3rem ridge #05dbf7;
     grid-column: 4/6;
     grid-row: 1/4;
-    background-image: url(./images/Screenshot\ 2022-08-08\ 140519.png);
+    background-image: url(./images/2022-09-13\ \(1\).png);
+    background-size: 100%;
 }
-.newnew {
+.weatherapp {
     width: 100%;
     height: 100%;
     outline: 0.3rem ridge #05dbf7;
     grid-column: 1/4;
     grid-row: 1/4;
-    background-image: url(./images/Screenshot\ 2022-08-08\ 140519.png);
+    background-image: url(./images/2022-09-13.png);
+    background-size: 100%;
 }
 
-.main .gitpic:hover {
-    transform: scale(101%);
-    filter: brightness(150%);
-    box-shadow: 0 0 0 7px #05dbf7;
+.myworkpic {
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem ridge #05dbf7;
+    grid-column: 2/4;
+    grid-row: 4/6;
+    background-image: url(./images/GitHub-headpic.webp);
+    background-size: 100%;
 }
 
-.main .newpic:hover {
-    transform: scale(101%);
-    filter: brightness(150%);
-    box-shadow: 0 0 0 7px #05dbf7;
+.resume1 {
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem ridge #05dbf7;
+    grid-column: 0/8;
+    grid-row: 4/6;
+    background-image: url(./images/resume-icon.webp);
+    background-size: 100%;
 }
 
-.main .myworkpic:hover {
-    transform: scale(101%);
-    filter: brightness(150%);
-    box-shadow: 0 0 0 7px #05dbf7;
-}
-
-.main .resumepic:hover {
-    transform: scale(101%);
-    filter: brightness(150%);
-    box-shadow: 0 0 0 7px #05dbf7;
-} 
-
-.gitpic h3 {
-    font-size: 1.55rem;
+.quiz {
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem ridge #05dbf7;
+    grid-column: 4/6;
+    grid-row: 4/6;
+    background-image: url(./images/2022-08-24.png);
+    background-size: 100%;
     
 }
 
-.myworkpic h3 {
-    font-size: 1.55rem;
+.main .password:hover,
+.main .weatherapp:hover,
+.main .resume1:hover,
+.main .myworkpic:hover,
+.main .quiz:hover {
+    transform: scale(101%);
+    filter: brightness(150%);
+    box-shadow: 0 0 0 7px #05dbf7;
 }
 
-.resumepic h3 {
-    font-size: 1.55rem;
-}
-
-.aboutme h3 {
-    font-size: 1.55rem;
-}
 
 #my-work {
     display: grid;
@@ -150,23 +153,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.myworkpic {
-    width: 100%;
-    height: 100%;
-    outline: 0.3rem ridge #05dbf7;
-    grid-column: 2/4;
-    grid-row: 4/6;
-    background-image: url(./images/GitHub-headpic.webp)
-}
 
-.newpic {
-    width: 100%;
-    height: 100%;
-    outline: 0.3rem ridge #05dbf7;
-    grid-column: 0/8;
-    grid-row: 4/6;
-    background-image: url(./images/GitHub-headpic.webp)
-}
 .aboutme {
     background-color: #060f18;
     border-radius: 0.5rem;
@@ -190,14 +177,6 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-.resumepic {
-    width: 100%;
-    height: 100%;
-    outline: 0.3rem ridge #05dbf7;
-    grid-column: 4/6;
-    grid-row: 4/6;
-    background-image: url(./images/resume.jpg);
-}
 /*main section layout*/
 .main {
     background-color: #060f18;
