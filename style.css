@@ -34,6 +34,7 @@ nav {
 /*Profile picture*/
 .pic {
     width: 25%;
+    outline: 0.3rem ridge #05dbf7 ;
 }
 /*used for sticky header*/
 .sticky {
@@ -90,7 +91,7 @@ nav ul li a:hover {
     outline: 0.3rem ridge #05dbf7;
     grid-column: 4/6;
     grid-row: 1/4;
-    background-image: url(./images/2022-09-13\ \(1\).png);
+    background-image: url(./images/2022-09-19.png);
     background-size: 100%;
 }
 .weatherapp {
