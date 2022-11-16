@@ -100,7 +100,7 @@ nav ul li a:hover {
     outline: 0.3rem ridge #05dbf7;
     grid-column: 1/4;
     grid-row: 1/4;
-    background-image: url(./images/2022-09-13.png);
+    background-image: url(./images/Screenshot.png);
     background-size: 100%;
 }
 
@@ -130,7 +130,7 @@ nav ul li a:hover {
     outline: 0.3rem ridge #05dbf7;
     grid-column: 4/6;
     grid-row: 4/6;
-    background-image: url(./images/2022-08-24.png);
+    background-image: url(./images/2022-09-13.png);
     background-size: 100%;
     
 }
